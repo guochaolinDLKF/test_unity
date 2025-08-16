@@ -278,7 +278,12 @@ namespace Editor.Utilities
         }
 
 
-
+        [MenuItem("Tools/打包增量资源")]
+        public static void BuildAssets()
+        {
+            BuildUtilites.GenerateHybridCLRCode();
+            //BuildUtilites.BuildAddressables();
+        }
 
 
         [MenuItem("Tools/设置五行位置")]
