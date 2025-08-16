@@ -10,16 +10,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
-  m_Name: Remote
+  m_Name: Remote_Scene
   m_EditorClassIdentifier: 
-  m_GroupName: Remote
+  m_GroupName: Remote_Scene
   m_Data:
     m_SerializedData: []
-  m_GUID: ac71935c7586f34458717ccd1e093efb
-  m_SerializeEntries: []
+  m_GUID: b032568488b73b64d91b3228010717e7
+  m_SerializeEntries:
+  - m_GUID: e29fe22341cf62248b6d1e0cfd6bab18
+    m_Address: Assets/AddressableResources/Remote/Scenes
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: f9ac6075f18421d418d4546a1e3090f2, type: 2}
   m_SchemaSet:
     m_Schemas:
-    - {fileID: 11400000, guid: 4bfb7faf47ea2824db38aabeeb2f7e11, type: 2}
-    - {fileID: 11400000, guid: 50c720b65b863764ba341319fcf0f1f8, type: 2}
+    - {fileID: 11400000, guid: 0a44cddde1f67444786b2d418b3850f8, type: 2}
+    - {fileID: 11400000, guid: 0f4b036c78dbc744b825c16e09c885b9, type: 2}

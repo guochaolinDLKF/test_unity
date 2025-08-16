@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
-  m_Name: Default Local Group
+  m_Name: Remote_Dll
   m_EditorClassIdentifier: 
-  m_GroupName: Default Local Group
+  m_GroupName: Remote_Dll
   m_Data:
     m_SerializedData: []
-  m_GUID: 9e8ae15fee9fa3d4da76f37de718acd1
+  m_GUID: ac71935c7586f34458717ccd1e093efb
   m_SerializeEntries:
-  - m_GUID: 8a48d8fea17c2c84782a9f561383dd0a
-    m_Address: Assets/Scenes
+  - m_GUID: d8a4dbb7fce1e68489b2d4eabf687742
+    m_Address: Assets/AddressableResources/Remote/Dll
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -26,5 +26,5 @@ MonoBehaviour:
   m_Settings: {fileID: 11400000, guid: f9ac6075f18421d418d4546a1e3090f2, type: 2}
   m_SchemaSet:
     m_Schemas:
-    - {fileID: 11400000, guid: 3197da5a00d1f6649a2a4bcaaddc6e42, type: 2}
-    - {fileID: 11400000, guid: f78e76a026f8cf642aaa4a67db8c37d3, type: 2}
+    - {fileID: 11400000, guid: 4bfb7faf47ea2824db38aabeeb2f7e11, type: 2}
+    - {fileID: 11400000, guid: 50c720b65b863764ba341319fcf0f1f8, type: 2}
