@@ -9,11 +9,17 @@ using UnityEngine;
 using UnityEngine.AddressableAssets;
 using UnityEngine.Networking;
 
-namespace Local.Core
+namespace Remote.Game
 {
     public class LoadDll
     {
-        private static List<string> AOTMetaAssemblyFiles { get; } = new() { "mscorlib.dll.bytes", "System.dll.bytes", "System.Core.dll.bytes", };
+        private static List<string> AOTMetaAssemblyFiles { get; } = new()
+        {
+            "mscorlib.dll.bytes", 
+            "System.dll.bytes", 
+            "System.Core.dll.bytes",
+            "tyme.dll.bytes",
+        };
 
 
         private static Dictionary<string, byte[]> s_assetDatas = new Dictionary<string, byte[]>();
