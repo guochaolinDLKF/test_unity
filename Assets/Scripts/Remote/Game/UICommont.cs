@@ -5,12 +5,19 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using System.Collections.Generic;
 using System.Text.RegularExpressions;
+
 [RequireComponent(typeof(Animation))]
 public class UICommont : MonoBehaviour,IPointerClickHandler
 {
-    private TMP_Text _tmpText;
+    class MyClass
+    {
+        public string name;
+    }
     void Start()
     {
+        Debug.Log("UICommont");
+        MyClass myClass = new MyClass();
+        myClass.name = "MyClass";
         
     }
 

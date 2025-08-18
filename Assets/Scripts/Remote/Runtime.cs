@@ -17,13 +17,14 @@ namespace Remote
             Debug.Log(birthTime.SolarDay.Month);
             EightChar eightChar=new EightChar("癸酉","庚申","己巳","己巳");
         
+            Debug.Log(eightChar);
             SceneManager.GetSceneByName("Main");
             if (Mouse.current.leftButton.wasPressedThisFrame)  
             {        
                 Debug.Log("Left mouse button was pressed");  
             }  
         
-            GameObject go=new GameObject();
+            GameObject go=new GameObject("GameObject");
             go.AddComponent<UICommont>();
         
             Pointer pointer = Pointer.current;

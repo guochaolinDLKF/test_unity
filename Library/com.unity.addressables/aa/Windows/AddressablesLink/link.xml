@@ -1,6 +1,6 @@
 <linker>
   <assembly fullname="RemoveAssembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="LoadDllInScene" preserve="all" />
+    <type fullname="Remote.Game.LoadDllInScene" preserve="all" />
   </assembly>
   <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />

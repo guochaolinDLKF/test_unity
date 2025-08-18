@@ -112,7 +112,7 @@ public class AOTGenericReferences : UnityEngine.MonoBehaviour
 	{
 		// System.Collections.Generic.IEnumerable<object> System.Linq.Enumerable.Concat<object>(System.Collections.Generic.IEnumerable<object>,System.Collections.Generic.IEnumerable<object>)
 		// System.Collections.Generic.IEnumerable<object> System.Linq.Enumerable.ConcatIterator<object>(System.Collections.Generic.IEnumerable<object>,System.Collections.Generic.IEnumerable<object>)
-		// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder.Start<Runtime.<Init>d__0>(Runtime.<Init>d__0&)
+		// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder.Start<Remote.Runtime.<Init>d__0>(Remote.Runtime.<Init>d__0&)
 		// UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle<object> UnityEngine.AddressableAssets.Addressables.LoadAssetAsync<object>(object)
 		// System.Void UnityEngine.AddressableAssets.Addressables.Release<object>(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle<object>)
 		// UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle<object> UnityEngine.AddressableAssets.AddressablesImpl.LoadAssetAsync<object>(object)
