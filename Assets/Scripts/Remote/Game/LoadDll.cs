@@ -49,7 +49,7 @@ namespace Remote.Game
             // 非Editor模式下，加载程序集
             Assembly hotUpdateAss = Assembly.Load(ReadBytesFromAssetData($"{RemoteHotDLLName}{DLLExtension}{BytesExtension}"));
 #endif
-            Type type = hotUpdateAss.GetType("Remote.Game.Runtime");
+            Type type = hotUpdateAss.GetType("Remote.Runtime");
             type.GetMethod("Init").Invoke(null, null);
             yield break;
         }

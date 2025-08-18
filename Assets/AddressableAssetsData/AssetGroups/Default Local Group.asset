@@ -17,11 +17,6 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: 9e8ae15fee9fa3d4da76f37de718acd1
   m_SerializeEntries:
-  - m_GUID: 8a48d8fea17c2c84782a9f561383dd0a
-    m_Address: Assets/Scenes
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: ca9f5fa95ffab41fb9a615ab714db018
     m_Address: Packages/com.unity.inputsystem/InputSystem/Plugins/PlayerInput/DefaultInputActions.inputactions
     m_ReadOnly: 0

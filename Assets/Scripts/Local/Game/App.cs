@@ -13,13 +13,17 @@ public class App : MonoBehaviour
         Instance = this;
         
     }
-
+    private void Start()
+    {
+        //启动版本比对、资源下载以及更新操作
+        new GameObject(nameof(VersionUpdateManager)).AddComponent<VersionUpdateManager>();
+    }
     public IEnumerator EnterMainScene()
     {
         Scene sampleScene = SceneManager.GetActiveScene();
         
         //加载Main场景
-        var handle = Addressables.LoadSceneAsync("Assets/AddressableResources/Remote/Scenes/Main.unity", LoadSceneMode.Additive);
+        var handle = Addressables.LoadSceneAsync("Assets/AddressableResources/Remote/Scenes/Main.scene", LoadSceneMode.Additive);
         yield return handle;
         
         //切换到Main场景

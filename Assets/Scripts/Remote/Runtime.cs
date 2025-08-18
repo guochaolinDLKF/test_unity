@@ -3,17 +3,34 @@ using System.Collections.Generic;
 using tyme.eightchar;
 using tyme.solar;
 using UnityEngine;
+using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 
-public class Runtime 
+namespace Remote
 {
-    public static async void Init()
+    public class Runtime 
     {
-        Debug.Log("开始热更新");
-        SolarTime birthTime = SolarTime.FromYmdHms(1994, 10, 17, 00, 25, 29);
-        Debug.Log(birthTime.SolarDay.Month);
-        EightChar eightChar=new EightChar("癸酉","庚申","己巳","己巳");
+        public static async void Init()
+        {
+            Debug.Log("开始热更新");
+            SolarTime birthTime = SolarTime.FromYmdHms(1994, 10, 17, 00, 25, 29);
+            Debug.Log(birthTime.SolarDay.Month);
+            EightChar eightChar=new EightChar("癸酉","庚申","己巳","己巳");
         
-        SceneManager.GetSceneByName("Main");
+            SceneManager.GetSceneByName("Main");
+            if (Mouse.current.leftButton.wasPressedThisFrame)  
+            {        
+                Debug.Log("Left mouse button was pressed");  
+            }  
+        
+            GameObject go=new GameObject();
+            go.AddComponent<UICommont>();
+        
+            Pointer pointer = Pointer.current;
+            if (pointer == null) return;
+        
+            Debug.Log(pointer.position.ReadValue());
+        }
     }
 }
+

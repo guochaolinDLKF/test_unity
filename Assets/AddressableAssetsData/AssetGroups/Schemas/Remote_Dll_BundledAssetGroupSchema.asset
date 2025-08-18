@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Remote_Dll_BundledAssetGroupSchema
   m_EditorClassIdentifier: 
   m_Group: {fileID: 11400000, guid: 7a1acdb2a1a4b6641a2a2cd583f917d4, type: 2}
-  m_InternalBundleIdMode: 1
+  m_InternalBundleIdMode: 0
   m_Compression: 1
   m_IncludeAddressInCatalog: 1
   m_IncludeGUIDInCatalog: 0
